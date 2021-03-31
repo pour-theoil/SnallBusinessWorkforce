@@ -1,0 +1,61 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Commodore 64",
+            "year": 1982
+        },
+        {
+            "id": 3,
+            "model": "iMac G3",
+            "year": 1996
+        },
+        {
+            "id": 4,
+            "model": "IBM 5150",
+            "year": 1982
+        },
+        {
+            "id": 5,
+            "model": "Macintosh II",
+            "year": 1987
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "computerId": 1
+        },
+        {
+            "id": 1,
+            "firstName": "Homer",
+            "lastName": "Simpson",
+            "computerId": 2
+        },
+        {
+            "id": 1,
+            "firstName": "Rick",
+            "lastName": "Sanchez",
+            "computerId": 3
+        },
+        {
+            "id": 1,
+            "firstName": "Morty",
+            "lastName": "Smith",
+            "computerId": 4
+        },
+        {
+            "id": 1,
+            "firstName": "Summer",
+            "lastName": "Smith",
+            "computerId": 5
+        }
+    ]
+}
