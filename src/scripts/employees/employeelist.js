@@ -1,9 +1,10 @@
 import { employeeCard } from "./employeecard.js"
 
-export const getEmployeeList = (allEmployees) => {
+export const getEmployeeList = (allEmployees, compute) => {
     let employeeHTML = ""
     allEmployees.forEach(employ => {
-        employeeHTML += employeeCard(employ);
+        let emplyComp = compute.find(computer => computer.id === employ.computerId)
+        employeeHTML += employeeCard(employ, emplyComp);
     })
     return employeeHTML;
 }

@@ -5,8 +5,8 @@ export const getEmployees = () => {
     .then(response => response.json())
 }
 
-export const getComputer = (usercompId) => {
-    return fetch(`${api}/computers/${usercompId}`)
+export const getComputer = () => {
+    return fetch(`${api}/computers/`)
     .then(response => response.json())
     
 }
