@@ -10,3 +10,9 @@ export const getComputer = () => {
     .then(response => response.json())
     
 }
+
+export const getDepartment = () => {
+    return fetch(`${api}/departments/`)
+    .then(response => response.json())
+    
+}
