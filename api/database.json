@@ -32,6 +32,7 @@
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
             "age": 34,
+            "departmentId": 3,
             "computerId": 1
         },
         {
@@ -39,6 +40,7 @@
             "firstName": "Homer",
             "lastName": "Simpson",
             "age": 50,
+            "departmentId": 2,
             "computerId": 2
         },
         {
@@ -46,6 +48,7 @@
             "firstName": "Rick",
             "lastName": "Sanchez",
             "age": 55,
+            "departmentId": 1,
             "computerId": 3
         },
         {
@@ -53,6 +56,7 @@
             "firstName": "Morty",
             "lastName": "Smith",
             "age": 22,
+            "departmentId": 4,
             "computerId": 4
         },
         {
@@ -60,7 +64,26 @@
             "firstName": "Summer",
             "lastName": "Smith",
             "age": 20,
+            "departmentId": 1,
             "computerId": 5
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "departmentName": "Repairs"
+        },
+        {
+            "id": 2,
+            "departmentName": "Sales"
+        },
+        {
+            "id": 3,
+            "departmentName": "Logistics"
+        },
+        {
+            "id": 4,
+            "departmentName": "Accounting"
         }
     ]
 }
